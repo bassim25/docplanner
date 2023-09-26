@@ -1,0 +1,256 @@
+body{
+font-family: sans-serif;
+color: grey;
+}
+a {
+ color: rgb(152, 151, 151);
+ text-decoration: none;
+}
+.active {
+    color: #00b39b;
+}
+.docplanner-header {
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+}
+.d1 {
+    color: #00b39b;
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20.8px;
+    text-align: start;
+    letter-spacing: normal;
+    grid-gap: 20px;
+}
+.introduction-logo {
+    width: 50px;
+    height: 50px;
+}
+.introduction-title {
+    font-family: Arial,sans-serif;
+    color: #00b39b;
+    font-weight: 100;
+}
+.introduction-text {
+    display: flex;
+    font-size: 17px;
+    line-height: 20.8px;
+    letter-spacing: normal;
+    text-align: start;
+}
+.services {
+    display: flex;
+}
+.service-card-patients {
+    background-color: #00ccb1;
+    width: 70%;
+    margin: auto;
+}
+.service-card-doctors {
+   background-color: #3d83df;
+   width: 70%;
+   margin: auto;
+}
+.service-card-clinics {
+    background-color: #1a2734;
+    width: 70%;
+    margin: auto;
+}
+.service-card {
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin: 40px;
+}
+.text1 {
+    color: #00b39b;
+    font-size: 28px;
+    text-align: start;
+    letter-spacing: -0.3;
+    font-family: sans-serif;
+}
+.patients{
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    font-size: medium;
+}
+.clinics{
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+  font-size: medium;
+}
+.doctors{
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    font-size: medium;
+}
+option {
+    color: gray;
+}
+.service-card-title{
+    font-size: 14px;
+}
+.service-card-for{
+    font-size: 20px;
+}
+.stats h1 {
+    color: rgb(0,197,155);
+    font-family: 'Charmonman', cursive;
+}
+    .stats-box {
+        height: 190px;
+        background-color: white;
+        border-radius: 7%;
+        width: 45%;
+        margin-right: 5%;
+    }
+    .stats-box-colomn-2 {
+        display: flex;
+        margin-top:5%;
+    }
+    .stats-box-colomn-1 {
+        display: flex;
+    }
+
+.box-3 p {
+    margin-right: 17%;
+    margin-top: -5%;
+}
+.box-4 p {
+    margin-right: 17%;
+}
+.offices-description {
+    text-align: center;
+}
+.offices-description h1 {
+    color: rgb(0,197,155);
+    font-family: 'Charmonman', cursive;
+}
+.offices-description p {
+    text-align: center;
+    color: black;
+    opacity: .7;
+}
+.offices-colomn-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.offices-colomn-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.offices-colomn-1 h1 {
+    font-family: 'Charmonman', cursive;
+}
+.offices-box h2 {
+    font-family: 'Charmonman', cursive;
+}
+.opening-information {
+    text-align: right;
+    margin-top: -17%;
+}
+.opening-information input {
+    background-color: rgb(61,131,223);
+    color:white;
+    height: 31px;
+    border-radius: 25px;
+}
+/*Css for footer */
+footer
+ {  border-top: 1px solid rgba(196,196,196,0.7);
+    text-align: center;
+    color: black;
+    opacity: .7;
+}
+.footer {
+    display: flex;
+    text-align: center;
+}
+.footer p {
+    width: 32%;
+    color: black;
+    opacity: .7;
+    margin-left: 15%;
+    margin-bottom: 0.5%;
+}
+.offices-list {
+    width: 50%;
+    margin-left: -20%;
+    margin-top: 1.2%;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(61,131,223);
+}
+.adress-container {   
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.adress-container h1 {
+    font-family: 'Charmonman', cursive;
+    color:rgb(0,204,177);
+    width: 30%;
+}
+.adress-list-of-links {
+    width:70%;
+    margin-left: 10%;
+}
+.adress-list-of-links ul {
+    list-style-type: none;
+    line-height: 3;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+}
+.adress-list-of-links li {
+    float:left;
+    margin-right: 15px;
+}
+.adress-list-of-links li a {
+    color:rgb(196,196,196);
+    text-decoration: none;
+}
+.adress-list-of-links img {
+    height: 22px;
+}
+.stats-container {
+    background: linear-gradient(80deg,white,rgb(0,204,177));
+    display: flex;
+    height: 380px;
+    padding: 4%;
+    overflow: hidden;
+}
+.introduction-box {
+    width: 30%;
+}
+.introduction-box h1 {
+    color: rgb(0,177,159);
+    font-family: 'Charmonman', cursive;
+    margin-bottom: 7%;
+}
+.introduction-box p {
+    opacity: 0.4;
+}
+.introduction-logo img {
+    height: 231px;
+    width: 100%;
+    margin-top: 5%;
+}
+.stats {
+    text-align: center;
+    width: 60%;
+    margin: 0 4% 0 19%;
+}
